@@ -1,0 +1,35 @@
+import 'dart:io';
+
+void main(){
+
+
+const double passingGradeThreshold = 60.0;
+const double maxPossibleScore = 100;
+
+const double assignmentWeight = 0.2;
+const double midtermWeight = 0.3;
+const double finalExamWeight = 0.5;
+
+print("Enter Student's Name:");
+String? studName = stdin.readLineSync();
+
+print("Enter Assignment Score: ");
+double? assignmentScore = double.parse(stdin.readLineSync()!);
+
+print("Enter Midterm Exam: ");
+double? midtermExam = double.parse(stdin.readLineSync()!);
+
+print("Enter Final Exam: ");
+double? finalExam = double.parse(stdin.readLineSync()!);
+
+
+
+
+
+
+print("Student's Name: $studName");
+print("Assignment Score: $assignmentScore");
+print("Midterm Exam: $midtermExam");
+print("Final Exam: $finalExam");
+
+}
